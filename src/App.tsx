@@ -14,7 +14,7 @@ export default function App() {
         >
             <div className="w-full h-screen backdrop-blur-sm flex flex-col">
                 <header className="text-xl py-5 px-8 lg:py-10 ">
-                    <h1 className="text-white font-cursive lg:text-4xl tracking-widest">
+                    <h1 className="text-white font-cursive lg:text-4xl tracking-widest lg:hover:text-gray-400 lg:hover:transition-colors lg:hover:duration-500">
                         <Link to="/" title="Home">
                             Flickfindr
                         </Link>
@@ -35,7 +35,7 @@ export default function App() {
                             </div>
                             <button
                                 type="button"
-                                className="text-gray-200 bg-deep-navy lg:hover:bg-opacity-80 lg:transition-opacity p-2.5 rounded-r-full flex gap-1 items-center"
+                                className="text-gray-200 bg-deep-navy lg:hover:bg-opacity-80 lg:transition-opacity lg:duration-700 p-2.5 rounded-r-full flex gap-1 items-center"
                                 title="Search"
                             >
                                 <img src={SearchIcon} className="w-5 h-5" />
