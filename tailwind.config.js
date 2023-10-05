@@ -5,6 +5,7 @@ export default {
         extend: {
             fontFamily: {
                 sans: ['Open Sans', 'sans'],
+                cursive: ['Slackey', 'cursive'],
             },
             colors: {
                 'midnight-black': '#0c0c0d',
@@ -13,6 +14,7 @@ export default {
                 'deep-navy': '#243846',
                 'ocean-blue': '#2b566b',
                 'cool-teal': '#3e6d81',
+                'golden-rod': '#d3ab22',
             },
         },
     },
