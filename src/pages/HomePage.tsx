@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import Header from '../components/Header';
 import SearchInput from '../components/SearchInput';
-import MoviePoster from './assets/movie-poster-bg.jpg';
+import MoviePoster from '../assets/movie-poster-bg.jpg';
 
 export default function HomePage() {
     return (
